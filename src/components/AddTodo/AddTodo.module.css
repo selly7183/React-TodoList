@@ -1,0 +1,28 @@
+.form {
+	background-color: var(--color-bg-dark);
+	padding: 1.4rem 1rem;
+	display: flex;
+	width: 100%;
+}
+.input {
+	border: none;
+	outline: none;
+	border-top-left-radius: 8px;
+	border-bottom-left-radius: 8px;
+	padding: 0.7rem 1rem;
+	font-size: 1.4rem;
+	flex: 1 0 auto;
+}
+.btn {
+	background-color: var(--color-accent);
+	color: var(--color-white);
+	font-weight: bold;
+	padding: 0 2rem;
+	cursor: pointer;
+	border-top-right-radius: 8px;
+	border-bottom-right-radius: 8px;
+	font-size: 1.4rem;
+}
+.btn:hover {
+	filter: brightness(125%);
+}
