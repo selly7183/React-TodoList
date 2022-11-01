@@ -6,6 +6,7 @@
 	margin: 0.1rem 0;
 	color: var(--color-text);
 }
+
 .checkbox {
 	width: 1.5rem;
 	height: 1.5rem;
@@ -13,7 +14,7 @@
 .text {
 	font-size: 1.5rem;
 	margin-left: 0.5rem;
-	flex: 1 1 auto;
+	flex: 1 1;
 }
 .icon {
 	width: 26px;
@@ -29,4 +30,20 @@
 .button {
 	color: var(--color-text);
 	background-color: transparent;
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+
+@media (max-width: 600px) {
+	.text {
+		font-size: 1.2rem;
+	}
+	.checkbox {
+		width: 20px;
+		height: 20px;
+	}
+	.todo {
+		padding: 0.2rem 1rem;
+	}
 }

@@ -23,6 +23,8 @@ export default function AddTodo({ onAdd }) {
 				placeholder="Add Todo"
 				value={text}
 				onChange={handleChange}
+				maxLength="20"
+				required
 			/>
 			<button className={styles.btn}>Add</button>
 		</form>
