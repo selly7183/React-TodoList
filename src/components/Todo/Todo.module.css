@@ -19,6 +19,7 @@
 .icon {
 	width: 26px;
 	height: 26px;
+	line-height: 26px;
 	background-color: var(--color-grey);
 	border-radius: 100%;
 	transition: all 150ms ease-out;
@@ -33,6 +34,7 @@
 	height: 100%;
 	display: flex;
 	align-items: center;
+	justify-content: center;
 }
 
 @media (max-width: 600px) {
