@@ -39,3 +39,17 @@
 	margin-top: 0.1rem;
 	border-bottom: 2px solid var(--color-accent);
 }
+
+/* 반응형 */
+@media (max-width: 600px) {
+	.filters {
+		margin-bottom: 0.8rem;
+		margin-top: 0.8rem;
+	}
+	.filter {
+		font-size: 1.2rem;
+	}
+	.toggle {
+		font-size: 1.2rem;
+	}
+}

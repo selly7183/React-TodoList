@@ -11,7 +11,7 @@
 	border-bottom-left-radius: 8px;
 	padding: 0.7rem 1rem;
 	font-size: 1.4rem;
-	flex: 1 0 auto;
+	flex: 1 1 0;
 }
 .btn {
 	background-color: var(--color-accent);
@@ -25,4 +25,19 @@
 }
 .btn:hover {
 	filter: brightness(125%);
+}
+
+/* 반응형 */
+@media (max-width: 600px) {
+	.form {
+		padding: 1rem;
+	}
+	.input {
+		font-size: 1.1rem;
+		padding: 0.5rem 1rem;
+	}
+	.btn {
+		font-size: 1.1rem;
+		padding: 0 1rem;
+	}
 }

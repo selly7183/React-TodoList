@@ -26,6 +26,7 @@ export default function TodoList({ filter }) {
 
 	return (
 		<section className={styles.container}>
+			<h3 className={styles.title}> - TodoList</h3>
 			<ul className={styles.list}>
 				{filtered.map((item) => (
 					<Todo

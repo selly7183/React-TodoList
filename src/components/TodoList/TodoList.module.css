@@ -9,4 +9,19 @@
 .list {
 	flex: 1 1 auto;
 	overflow-y: auto;
+	margin-top: 0.5rem;
+}
+
+.title {
+	margin: 0;
+	padding: 0.5rem 1rem 0 1rem;
+	margin-top: 1rem;
+	color: var(--color-accent);
+	font-size: 1.7rem;
+}
+
+@media (max-width: 600px) {
+	.title {
+		font-size: 1.5rem;
+	}
 }
