@@ -11,10 +11,10 @@
 		localStorage.setItem("todos", JSON.stringify(todos));
 	}, [todos]); //배열을 저장하기 위해서는 JSON으로 변환해줘야함.
   
-  // localStorage에 저장한걸 보여줄때
+6. // localStorage에 저장한걸 보여줄때
   function readTodosFromLocalStorage() {
     const todos = localStorage.getItem("todos");
     return todos ? JSON.parse(todos) : [];
   }
   
-6. id값을 filter를 이용해 삭제기능 구현.
+7. id값을 filter를 이용해 삭제기능 구현.
